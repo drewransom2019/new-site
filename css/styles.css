@@ -1,0 +1,61 @@
+/************* ELEMENT STYLES *************/
+
+body{
+background-image: linear-gradient(to top, #d1f2f2, #caf3f3, #c3f3f3, #bcf4f4, #b4f4f4, #aaf5f5, #9ff6f6, #93f7f7, #80f9f9, #69fbfb, #4bfdfd, #00ffff);
+  font-family: 'Solway', serif;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+h1{
+  margin-top: 0;
+  font-size: 5em;
+}
+
+h2{
+  font-style: oblique;
+}
+
+div{
+
+}
+
+
+/************* CLASS STYLES *************/
+.topContainer{
+    /**background-color: #D1F2F2;**/
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.cloud{
+  -webkit-filter: drop-shadow(0px 10px 5px #55555570 );
+  filter: drop-shadow(0px 10px 5px #55555570);
+}
+
+.top-cloud{
+  width: 200px;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.bottom-cloud{
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 50%;
+}
+
+.bg-image{
+  width: 100%;
+}
+.pro{
+  background: #F9F87185;
+  text-decoration: underline;
+}
+
+
+
+/************* ID STYLES *************/
